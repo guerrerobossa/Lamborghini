@@ -1,15 +1,21 @@
 @import "tailwindcss";
 
 @theme {
---color-marca-50: #fdf3ef;
---color-marca-100: #fbe3d9;
---color-marca-500: #e76f51;
---color-marca-600: #d1583b;
---color-mar-700: #1d6f77;
---color-mar-900: #12474c;
+--color-marca-50: #1A1818;
+--color-marca-100: #1A1818;
+--color-marca-500: #666161;
+--color-marca-600: #666161;
+--color-mar-700: #ffffff;
+--color-mar-900: #000000;
+--color-mar-910: #ffffff;
 --font-titulo: Georgia, "Times New Roman", serif;
 }
 /* Desplazamiento suave al pulsar los enlaces del menú */
 html {
 scroll-behavior: smooth;
+}
+
+.catalogo1 {
+    width: 300px;
+    height: 100px;
 }

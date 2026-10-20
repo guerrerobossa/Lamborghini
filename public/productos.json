@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "nombre": "Guayabera de lino",
-    "categoria": "hombre",
+    "nombre": "Urus",
+    "categoria": "GAMA",
     "precio": 159000,
-    "imagen": "/img/guayabera.svg",
+    "imagen": "/img/Urus SE Performante-familyChooser_v3.png",
     "tallas": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "nuevo": true,
+    "nuevo": false,
     "descripcion": "Guayabera clásica de lino con alforzas y cuatro bolsillos. Fresca y elegante para eventos de día."
   },
   {
     "id": 2,
-    "nombre": "Camiseta de algodón",
-    "categoria": "hombre",
+    "nombre": "Temerario",
+    "categoria": "GAMA",
     "precio": 45000,
-    "imagen": "/img/camiseta.svg",
+    "imagen": "/img/familyChooser-Temerario_0.png",
     "tallas": [
       "S",
       "M",
