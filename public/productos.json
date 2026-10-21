@@ -5,14 +5,14 @@
     "categoria": "GAMA",
     "precio": 159000,
     "imagen": "/img/Urus SE Performante-familyChooser_v3.png",
-    "tallas": [
-      "S",
-      "M",
-      "L",
-      "XL"
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Guayabera clásica de lino con alforzas y cuatro bolsillos. Fresca y elegante para eventos de día."
+    "descripcion": "Urus SE, Urus SE Performante: Consumo de energía (combinado): 21,4 kWh/100 Km más 5,71 l/100km; Emisiones de CO2 combinadas: 140 g/km; Clase de eficiencia de CO2 en ciclo combinado: E; Consumo de combustible con la batería descargada en ciclo combinado: 12,9 l/100km; Clase de CO2 con batería descargada: G; Urus SE Performante: En proceso de aprobación, no disponible para la venta"
   },
   {
     "id": 2,
@@ -20,156 +20,154 @@
     "categoria": "GAMA",
     "precio": 45000,
     "imagen": "/img/familyChooser-Temerario_0.png",
-    "tallas": [
-      "S",
-      "M",
-      "L",
-      "XL"
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Camiseta de algodón peinado con cuello redondo. Ideal para el día a día en la ciudad."
+    "descripcion": "Consumo energético (combinado ponderado): 6,4 kWh/100 Km más 10,3 l/100km; Emisiones de CO2 (combinadas ponderadas): 252 g/km; Clase de eficiencia de emisiones de CO2 (combinadas ponderadas): G; Clase de CO2 con batería descargada: G; Consumo de combustible (combinado) con batería descargada: 14 l/100km"
   },
   {
     "id": 3,
-    "nombre": "Bermuda de dril",
-    "categoria": "hombre",
+    "nombre": "Fenomeno",
+    "categoria": "FEW-OFF",
     "precio": 89000,
-    "imagen": "/img/bermuda.svg",
-    "tallas": [
-      "28",
-      "30",
-      "32",
-      "34"
+    "imagen": "/img/familyChooser-Fenomeno Roadster.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Bermuda de dril con bolsillos laterales y bota a la altura de la rodilla."
+    "descripcion": "    Limited Series: Fenomeno, Fenomeno Roadster: En proceso de aprobación, no disponible para la venta."
   },
   {
     "id": 4,
-    "nombre": "Pantalón de lino",
-    "categoria": "hombre",
+    "nombre": "Countach",
+    "categoria": "FEW-OFF",
     "precio": 135000,
-    "imagen": "/img/pantalon-lino.svg",
-    "tallas": [
-      "28",
-      "30",
-      "32",
-      "34"
+    "imagen": "/img/familyChooser-Countach.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Pantalón de lino con pretina elástica y cordón. Liviano y cómodo para el calor."
+    "descripcion": "Consumo energético (combinado): 19,5 l/100km; Emisiones de CO2 (combinadas): 440 g/km; Clase de eficiencia de emisiones de CO2: G."
   },
   {
     "id": 5,
-    "nombre": "Vestido floral",
-    "categoria": "mujer",
+    "nombre": "SIAN FKP 37",
+    "categoria": "FEW-OFF",
     "precio": 149000,
-    "imagen": "/img/vestido-floral.svg",
-    "tallas": [
-      "XS",
-      "S",
-      "M",
-      "L"
+    "imagen": "/img/familyChooser-Sian Roadster.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": true,
-    "descripcion": "Vestido largo de viscosa con estampado de flores tropicales y tiras ajustables."
+    "descripcion": "    Sián Fkp 37, Sián Roadster: Consumo de energía (combinado): 19,23-18,5 l/100km; Emisiones de CO2 combinadas: 447 g/km; Clase de eficiencia de CO2 en ciclo combinado: G."
   },
   {
     "id": 6,
-    "nombre": "Blusa campesina",
-    "categoria": "mujer",
+    "nombre": "Sexto Elemento",
+    "categoria": "FEW-OFF",
     "precio": 79000,
-    "imagen": "/img/blusa-campesina.svg",
-    "tallas": [
-      "XS",
-      "S",
-      "M",
-      "L"
+    "imagen": "/img/familyChooser-Sesto Elemento.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Blusa de hombros descubiertos con bordado artesanal en el escote."
+    "descripcion": ""
   },
   {
     "id": 7,
-    "nombre": "Falda midi plisada",
-    "categoria": "mujer",
+    "nombre": "CENTENARIO",
+    "categoria": "FEW-OFF",
     "precio": 99000,
-    "imagen": "/img/falda-midi.svg",
-    "tallas": [
-      "XS",
-      "S",
-      "M",
-      "L"
+    "imagen": "/img/familyChooser-CentenarioRoadster.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Falda midi de cintura alta con pliegues. Combina con blusas y camisetas."
+    "descripcion": ""
   },
   {
     "id": 8,
-    "nombre": "Short de lino",
-    "categoria": "mujer",
+    "nombre": "VENENO",
+    "categoria": "FEW-OFF",
     "precio": 72000,
-    "imagen": "/img/short-lino.svg",
-    "tallas": [
-      "XS",
-      "S",
-      "M",
-      "L"
+    "imagen": "/img/familyChooser-VenenoRoadster.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Short de lino de tiro alto con lazo en la cintura."
+    "descripcion": ""
   },
   {
     "id": 9,
-    "nombre": "Sombrero vueltiao",
-    "categoria": "accesorios",
+    "nombre": "Reventón",
+    "categoria": "FEW-OFF",
     "precio": 180000,
-    "imagen": "/img/sombrero-vueltiao.svg",
-    "tallas": [
-      "Única"
+    "imagen": "/img/familyChooser-ReventonRoadster.png",
+    "colores": [
+      "Único"
     ],
     "nuevo": true,
-    "descripcion": "Sombrero tradicional tejido en caña flecha por artesanos de Tuchín, Córdoba."
+    "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
   },
   {
     "id": 10,
-    "nombre": "Mochila wayuu",
-    "categoria": "accesorios",
+    "nombre": "ASTERION",
+    "categoria": "CONCEPT",
     "precio": 210000,
-    "imagen": "/img/mochila-wayuu.svg",
-    "tallas": [
-      "Única"
+    "imagen": "/img/familyChooser-Asterion.png",
+    "colores": [
+      "Único"
     ],
     "nuevo": false,
-    "descripcion": "Mochila tejida a mano por artesanas wayuu de La Guajira, con diseños geométricos únicos."
+    "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
   },
   {
     "id": 11,
-    "nombre": "Gafas de sol",
-    "categoria": "accesorios",
+    "nombre": "ESTOQUE",
+    "categoria": "CONCEPT",
     "precio": 65000,
-    "imagen": "/img/gafas-sol.svg",
-    "tallas": [
-      "Única"
+    "imagen": "/img/familyChooser-Estoque.png",
+    "colores": [
+      "Único"
     ],
     "nuevo": false,
-    "descripcion": "Gafas de sol con filtro UV400 y montura liviana."
+    "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
   },
   {
     "id": 12,
-    "nombre": "Sandalias de cuero",
-    "categoria": "accesorios",
+    "nombre": "Terzo Millennio",
+    "categoria": "CONCEPT",
     "precio": 115000,
-    "imagen": "/img/sandalias-cuero.svg",
-    "tallas": [
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41"
+    "imagen": "/img/familyChooser-Terzo Millennio.png",
+    "colores": [
+      "negro",
+      "blanco",
+      "gris",
+      "rojo"
     ],
     "nuevo": false,
-    "descripcion": "Sandalias de cuero natural hechas en Colombia, con suela antideslizante."
+    "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
   }
 ]
