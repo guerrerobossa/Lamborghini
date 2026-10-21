@@ -71,7 +71,7 @@
       "gris",
       "rojo"
     ],
-    "nuevo": true,
+    "nuevo": false,
     "descripcion": "    Sián Fkp 37, Sián Roadster: Consumo de energía (combinado): 19,23-18,5 l/100km; Emisiones de CO2 combinadas: 447 g/km; Clase de eficiencia de CO2 en ciclo combinado: G."
   },
   {
@@ -128,7 +128,7 @@
     "colores": [
       "Único"
     ],
-    "nuevo": true,
+    "nuevo": false,
     "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
   },
   {

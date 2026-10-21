@@ -3,6 +3,8 @@ import Encabezado from './components/Encabezado.jsx'
 import Portada from './components/Portada.jsx'
 import Filtros from './components/Filtros.jsx'
 import ListaProductos from './components/ListaProductos.jsx'
+import DetalleProducto from './components/DetalleProducto.jsx'
+import Carrito from './components/Carrito.jsx'
 import PiePagina from './components/PiePagina.jsx'
 
 function App() {
@@ -14,6 +16,13 @@ function App() {
   const [categoria, setCategoria] = useState('todas')
   const [busqueda, setBusqueda] = useState('')
   const [orden, setOrden] = useState('destacados')
+
+  // Producto abierto en la ventana de detalle (null = ninguno)
+  const [seleccionado, setSeleccionado] = useState(null)
+
+  // Carrito de compras
+  const [carrito, setCarrito] = useState([])
+  const [carritoAbierto, setCarritoAbierto] = useState(false)
 
   // Cargar los productos una sola vez, cuando se abre la página
   useEffect(() => {
@@ -36,12 +45,48 @@ function App() {
       return a.id - b.id
     })
 
+  // Total de unidades (para el número rojo del encabezado)
+  const cantidad = carrito.reduce((suma, item) => suma + item.cantidad, 0)
+
+  function agregarAlCarrito(producto, talla) {
+    const existe = carrito.find((item) => item.id === producto.id && item.talla === talla)
+    if (existe) {
+      // Ya estaba en el carrito: solo se aumenta la cantidad
+      setCarrito(
+        carrito.map((item) => (item === existe ? { ...item, cantidad: item.cantidad + 1 } : item)),
+      )
+    } else {
+      const nuevo = {
+        id: producto.id,
+        nombre: producto.nombre,
+        precio: producto.precio,
+        imagen: producto.imagen,
+        talla,
+        cantidad: 1,
+      }
+      setCarrito([...carrito, nuevo])
+    }
+    setSeleccionado(null)
+  }
+
+  function cambiarCantidad(itemCambiado, cambio) {
+    const actualizado = carrito.map((item) =>
+      item === itemCambiado ? { ...item, cantidad: item.cantidad + cambio } : item,
+    )
+    // Si una cantidad llega a cero, ese producto sale del carrito
+    setCarrito(actualizado.filter((item) => item.cantidad > 0))
+  }
+
+  function quitarDelCarrito(itemQuitado) {
+    setCarrito(carrito.filter((item) => item !== itemQuitado))
+  }
+
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800">
-      <Encabezado />
+      <Encabezado cantidad={cantidad} onAbrirCarrito={() => setCarritoAbierto(true)} />
       <Portada />
       <main id="catalogo" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-10">
-        <h2 className="font-titulo text-3xl font-bold text-mar-900">Catálogo</h2>
+        <h2 className="font-titulo text-3xl font-bold text-mar-900">Modelos</h2>
         <Filtros
           categoria={categoria}
           onCategoria={setCategoria}
@@ -50,9 +95,25 @@ function App() {
           orden={orden}
           onOrden={setOrden}
         />
-        <ListaProductos productos={visibles} cargando={cargando} />
+        <ListaProductos productos={visibles} cargando={cargando} onVerDetalle={setSeleccionado} />
       </main>
       <PiePagina />
+
+      {seleccionado && (
+        <DetalleProducto
+          producto={seleccionado}
+          onCerrar={() => setSeleccionado(null)}
+          onAgregar={agregarAlCarrito}
+        />
+      )}
+      {carritoAbierto && (
+        <Carrito
+          items={carrito}
+          onCerrar={() => setCarritoAbierto(false)}
+          onCambiarCantidad={cambiarCantidad}
+          onQuitar={quitarDelCarrito}
+        />
+      )}
     </div>
   )
 }
