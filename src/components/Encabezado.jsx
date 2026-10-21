@@ -15,8 +15,8 @@ function Encabezado({ cantidad, onAbrirCarrito }) {
         </nav>
         <button
           onClick={onAbrirCarrito}
-          className="relative rounded-full bg-mar-700 px-5 py-2 text-sm font-semibold text-white
-            hover:bg-mar-900"
+          className="relative rounded-full border border-black bg-black px-5 py-2 text-sm font-semibold text-white
+            transition hover:bg-white hover:text-black hover:border-black"
         >
           Carrito
           {cantidad > 0 && (
