@@ -79,8 +79,8 @@ function FormularioPedido({ items, onCerrar, onEnviado }) {
             </p>
             <button
               onClick={onCerrar}
-              className="mt-6 rounded-full bg-mar-700 px-6 py-3 font-semibold text-white
-                hover:bg-mar-900"
+              className="mt-6 rounded-full border border-black bg-black px-6 py-3 font-semibold text-white
+                hover:bg-white hover:text-black transition-colors duration-300"
             >
               Seguir comprando
             </button>

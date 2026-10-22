@@ -3,7 +3,7 @@
     "id": 1,
     "nombre": "Urus",
     "categoria": "GAMA",
-    "precio": 159000,
+    "precio": 2300000000,
     "imagen": "/img/Urus SE Performante-familyChooser_v3.png",
     "colores": [
       "negro",
@@ -18,7 +18,7 @@
     "id": 2,
     "nombre": "Temerario",
     "categoria": "GAMA",
-    "precio": 45000,
+    "precio": 2550000000,
     "imagen": "/img/familyChooser-Temerario_0.png",
     "colores": [
       "negro",
@@ -33,7 +33,7 @@
     "id": 3,
     "nombre": "Fenomeno",
     "categoria": "FEW-OFF",
-    "precio": 89000,
+    "precio": 18000000000,
     "imagen": "/img/familyChooser-Fenomeno Roadster.png",
     "colores": [
       "negro",
@@ -48,7 +48,7 @@
     "id": 4,
     "nombre": "Countach",
     "categoria": "FEW-OFF",
-    "precio": 135000,
+    "precio": 15000000000,
     "imagen": "/img/familyChooser-Countach.png",
     "colores": [
       "negro",
@@ -63,7 +63,7 @@
     "id": 5,
     "nombre": "SIAN FKP 37",
     "categoria": "FEW-OFF",
-    "precio": 149000,
+    "precio": 13500000000,
     "imagen": "/img/familyChooser-Sian Roadster.png",
     "colores": [
       "negro",
@@ -78,7 +78,7 @@
     "id": 6,
     "nombre": "Sexto Elemento",
     "categoria": "FEW-OFF",
-    "precio": 79000,
+    "precio": 18000000000,
     "imagen": "/img/familyChooser-Sesto Elemento.png",
     "colores": [
       "negro",
@@ -93,7 +93,7 @@
     "id": 7,
     "nombre": "CENTENARIO",
     "categoria": "FEW-OFF",
-    "precio": 99000,
+    "precio": 12000000000,
     "imagen": "/img/familyChooser-CentenarioRoadster.png",
     "colores": [
       "negro",
@@ -108,7 +108,7 @@
     "id": 8,
     "nombre": "VENENO",
     "categoria": "FEW-OFF",
-    "precio": 72000,
+    "precio": 30000000000,
     "imagen": "/img/familyChooser-VenenoRoadster.png",
     "colores": [
       "negro",
@@ -123,13 +123,13 @@
     "id": 9,
     "nombre": "Reventón",
     "categoria": "FEW-OFF",
-    "precio": 180000,
+    "precio": 10000000000,
     "imagen": "/img/familyChooser-ReventonRoadster.png",
     "colores": [
       "Único"
     ],
     "nuevo": false,
-    "descripcion": "El vehículo mostrado es un coche prototipo que no está disponible como vehículo de producción."
+    "descripcion": ""
   },
   {
     "id": 10,
